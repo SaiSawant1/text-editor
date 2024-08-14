@@ -1,0 +1,3 @@
+/home/sai/coding/c++/text_editor_c++/build/CMakeFiles/Text_Editor.dir
+/home/sai/coding/c++/text_editor_c++/build/CMakeFiles/edit_cache.dir
+/home/sai/coding/c++/text_editor_c++/build/CMakeFiles/rebuild_cache.dir
