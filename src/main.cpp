@@ -1,5 +1,6 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_error.h>
+#include <SDL2/SDL_events.h>
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
 #include <cstdio>
@@ -31,6 +32,25 @@ int main() {
 
   SDL_Renderer *renderer = static_cast<SDL_Renderer *>(
       scp(SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED)));
+
+  bool quit = false;
+
+  while (!quit) {
+    SDL_Event event = {0};
+
+    while (SDL_PollEvent(&event)) {
+      switch (event.type) {
+      case SDL_QUIT: {
+
+      } break;
+      }
+
+      scc(SDL_SetRenderDrawColor(renderer, 100, 0, 0, 0));
+      scc(SDL_RenderClear(renderer));
+
+      SDL_RenderPresent(renderer);
+    }
+  }
 
   SDL_Quit();
 

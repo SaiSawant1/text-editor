@@ -92,6 +92,8 @@ Text_Editor_EXTERNAL_OBJECTS =
 
 Text_Editor: CMakeFiles/Text_Editor.dir/src/main.cpp.o
 Text_Editor: CMakeFiles/Text_Editor.dir/build.make
+Text_Editor: /usr/lib/libSDL2main.a
+Text_Editor: /usr/lib/libSDL2-2.0.so.0.3000.4
 Text_Editor: CMakeFiles/Text_Editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sai/coding/c++/text_editor_c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Text_Editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Text_Editor.dir/link.txt --verbose=$(VERBOSE)

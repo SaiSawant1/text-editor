@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Text_Editor.dir/src/main.cpp.o -o Text_Editor
+/usr/bin/c++ CMakeFiles/Text_Editor.dir/src/main.cpp.o -o Text_Editor  /usr/lib/libSDL2main.a /usr/lib/libSDL2-2.0.so.0.3000.4
